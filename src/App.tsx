@@ -1,9 +1,16 @@
 import React from "react";
+import Footer from "./Components/Footer";
+import Links from "./Components/Links";
+import MainContainer from "./Components/MainContainer";
+import Weather from './Components/Weather';
 
 const App = () => {
     return (
         <div>
-            <h1>Hello World!</h1>
+            <Weather />
+            <Links />
+            <MainContainer />
+            <Footer />
         </div>
     )
 }
